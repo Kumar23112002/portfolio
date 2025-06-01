@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Praveen | Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./myportfolio.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 80px 9%;
+            min-height: 100vh;
+            background-color: #1f242d;
+            color: white;
+        }
+
+        .project-card {
+            background: #2d343f;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .project-card a {
+            color: #00adb5;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Portfolio</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Vutukuri Kumar Praveen</h1>
+            <h2>I'm a
+                <span style="--i:3;" data-text="Java Fullstack Developer">Java Fullstack Developer</span>
+                <span style="--i:2;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p> I am a dedicated and detail-oriented Java Developer with a strong foundation in
+                programming and problem-solving. Passionate about software development, I
+                thrive in dynamic environments that stimulate my eagerness to learn and
+                contribute. My academic background, coupled with hands-on internships and
+                projects, equips me with the skills to deliver reliable and efficient software solutions</p>
+
+            <div class="btn-sci">
+                <a href="./Vutukuri_Kumar_Praveen_CV.pdf" class="btn" download>Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/Kumar23112002"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/vutukuri-kumar-praveen-2a7519279"><i
+                            class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./bg.png" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a full-stack Java developer with a diploma and B.Tech in Electrical and Electronics Engineering. I have
+            a strong interest in building responsive websites and backend systems. I love exploring technologies like
+            JSP, Servlets, JDBC, HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Net Banking System</h3>
+            <p>A JSP-based web application that allows users to register, log in, view balances using TPIN, and recover
+                passwords via OTP. Includes admin dashboard for user management.</p>
+            <a href="https://github.com/Kumar23112002/Net-Banking" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Dual Axis Solar Panel Tracker</h3>
+            <p>Developed using ATmega328 microcontroller and sensors to track sunlight in both azimuth and elevation for
+                maximum power generation. Achieved 35% more efficiency than fixed panels.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio built with HTML, CSS, and JavaScript. Showcases my projects, skills, and
+                contact details.</p>
+            <a href="https://github.com/Kumar23112002/portfolio" target="_blank">Visit GitHub Profile</a>
+        </div>
+
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Web design & development (HTML, CSS, JS)</li>
+            <li>Java backend (Servlets, JSP, JDBC, Spring, SpringMVC, SpringBoot)</li>
+            <li>Responsive UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:vkpraveen216@gmail.com">vkpraveen216@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vutukuri-kumar-praveen-2a7519279" target="_blank">Vutukuri
+                Kumar Praveen</a></p>
+        <p>GitHub: <a href="https://github.com/Kumar23112002" target="_blank">Kumar23112002</a></p>
+    </section>
+</body>
+
+</html>
